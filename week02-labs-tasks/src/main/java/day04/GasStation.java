@@ -10,6 +10,6 @@ public class GasStation {
 
     public int refueling(Car car, int liter) {
         car.setGasQuantity(liter);
-        return liter*gasPrice;
+        return liter * gasPrice;
     }
 }

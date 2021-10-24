@@ -6,7 +6,7 @@ public class Car {
     int km;
 
     public double getConsumption() {
-        return (gasQuantity*1.0 / km) * 100;
+        return (gasQuantity * 1.0 / km) * 100;
     }
 
     public int getGasQuantity() {

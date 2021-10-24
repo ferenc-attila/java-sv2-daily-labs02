@@ -14,6 +14,5 @@ public class ChatBot {
         Terminator terminator = new Terminator("Arnold", 12);
 
         System.out.println(terminator.greetingSomebody(inputName));
-
     }
 }

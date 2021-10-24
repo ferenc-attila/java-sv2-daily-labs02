@@ -13,10 +13,10 @@ public class Movie {
         this.year = year;
     }
 
-    public void addEvaluation (int rating) {
+    public void addEvaluation(int rating) {
         if (rating > 0 && rating <= 5) {
             sumOfRatings += rating;
-            numberOfRatings ++;
+            numberOfRatings++;
         } else {
             System.out.println("Invalid value.");
         }
