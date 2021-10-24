@@ -13,13 +13,21 @@ public class Movie {
         this.year = year;
     }
 
-    public double addEvaluation (int rating) {
+    public void addEvaluation (int rating) {
         if (rating > 0 && rating <= 5) {
             sumOfRatings += rating;
             numberOfRatings ++;
         } else {
             System.out.println("Invalid value.");
         }
-        return sumOfRatings * 1.0 / numberOfRatings;
+        this.avgRating = sumOfRatings * 1.0 / numberOfRatings;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public double getAvgRating() {
+        return avgRating;
     }
 }

@@ -24,5 +24,4 @@ public class Car {
     public void setKm(int km) {
         this.km = km;
     }
-
 }

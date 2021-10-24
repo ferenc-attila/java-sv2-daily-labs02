@@ -13,5 +13,4 @@ public class Rectangle {
     public double calculateArea() {
         return aSide * bSide;
     }
-
 }

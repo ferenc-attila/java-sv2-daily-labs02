@@ -12,5 +12,4 @@ public class GasStation {
         car.setGasQuantity(liter);
         return liter*gasPrice;
     }
-
 }
